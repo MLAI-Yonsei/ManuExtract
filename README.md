@@ -67,7 +67,7 @@ This approach enables the model to develop a deeper understanding of technical s
 
 ---
 
-## **4. Evaluate the Dataset without FT model (ManuExtract) **
+## **4. Evaluate the Dataset without FT model (ManuExtract)**
 Run the evaluation with the following command:
 ```bash
 NCCL_P2P_DISABLE="1" NCCL_IB_DISABLE="1" CUDA_VISIBLE_DEVICES=7 python /LLaMA-Factory/src/train.py   --stage sft   --model_name_or_path meta-llama/Meta-Llama-3.1-8B-Instruct   --preprocessing_num_workers 16   --finetuning_type lora   --template llama3   --dataset_dir ./LLaMA-Factory/data   --eval_dataset "Data name"   --cutoff_len 1024   --max_samples 100000   --per_device_eval_batch_size 10   --predict_with_generate True   --max_new_tokens 512   --top_p 0.7   --temperature 0.001   --output_dir "Output path"   --do_predict True
