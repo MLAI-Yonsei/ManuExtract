@@ -92,9 +92,9 @@ NCCL_P2P_DISABLE="1" NCCL_IB_DISABLE="1" CUDA_VISIBLE_DEVICES=7 python /LLaMA-Fa
    ```
 
 2. Update YAML Configuration
+- Update the configuration in examples/train_lora/llama3_lora_sft.yaml 
 
-
-3. Start Training:
+4. Start Training:
    ```bash
    CUDA_VISIBLE_DEVICES=1,2,3,4 llamafactory-cli train examples/train_lora/llama3_lora_sft.yaml
    ```
