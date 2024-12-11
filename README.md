@@ -1,5 +1,3 @@
-# ManuExtract
-
 
 # **ManuExtract: Fine-Tuning LLaMa and Evaluation Workflow**
 
