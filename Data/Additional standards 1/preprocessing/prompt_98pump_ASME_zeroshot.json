@@ -1,0 +1,492 @@
+[
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "This guideline discusses the effects of operating a rotodynamic pump at rates of flows greater than or less than the pump's best efficiency point (BEP).",
+    "output": "1. Item: guideline\n2. Property: coverage\n3. Value: effects of operating a rotodynamic pump at flow rates greater than or less than BEP"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "These effects influence the power consumption and life of pump components and, therefore, considering the operating rate of flow is essential to reliable, efficient pump operation.",
+    "output": "1. Item: effects of the operating rate of flow\n2. Property: influence and importance\n3. Value: influence power consumption and life, and essential to pump operation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "At BEP the pump operates with maximum hydraulic efficiency.",
+    "output": "1. Item: pump\n2. Property: hydraulic efficiency\n3. Value: maximum at BEP"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The pumped liquid passes through the impeller vanes, casing diffuser (discharge nozzle), or vaned diffuser with minimal losses.",
+    "output": "1. Item: pumped liquid passing through the impeller vanes, casing diffuser (discharge nozzle), or vaned diffuser\n2. Property: flow losses\n3. Value: minimal"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Flow through the impeller and diffuser vanes (if so equipped) is relatively uniform and matched to the pump hydraulic geometry.",
+    "output": "1. Item: Flow through the impeller and diffuser vanes\n2. Property: flow uniformity\n3. Value: relatively uniform and matching to the pump hydraulic geometry"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "When the operating rate of flow moves far enough away from BEP, the flow through the pump is no longer uniform.",
+    "output": "1. Item: pump\n2. Property: flow uniformity\n3. Value: nonuniform when the operating rate of flow moves far enough away from BEP"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Areas of flow recirculation and separation develop increasing hydraulic losses.",
+    "output": "1. Item: pump\n2. Property: hydraulic losses increasing factors\n3. Value: Areas of flow recirculation and separation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Nonuniform flow and uneven pressure distributions in the pump result in increased hydraulic loads and vibration.",
+    "output": "1. Item: pump\n2. Property: hydraulic loads and vibration increasing condition\n3. Value: Nonuniform flow and uneven pressure distributions"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pumps operating in the presence of fibrous materials and at low speeds and flows can lead to pump clogging.",
+    "output": "1. Item: pump operation\n2. Property: clogging condition\n3. Value: in the presence of fibrous materials and at low speeds and flows"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The minimum rate of flow, used to define the allowable operating region (AOR), may need to be increased to reduce the risk of clogging for these types of applications.",
+    "output": "1. Item: minimum rate of flow\n2. Property: neccessity\n3. Value: to be increased to reduce the risk of clogging"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The preferred operating region (POR) is a range of rates of flow to either side of BEP within which the hydraulic efficiency of the pump is not substantially degraded.",
+    "output": "1. Item: preferred operating region (POR)\n2. Property: definition\n3. Value: range of rates of flow to either side of BEP without substantially degrading the hydraulic efficiency "
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Operating a pump within the POR ensures higher reliability and lower energy consumption.",
+    "output": "1. Item: Operating a pump within the POR\n2. Property: insurance\n3. Value: higher reliability and lower energy consumption within POR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The POR for most rotodynamic pumps is between 70% and 120% of BEP.",
+    "output": "1. Item: rotodynamic pumps\n2. Property: POR range\n3. Value: between 70% and 120% of BEP"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For smaller pumps, less than 4 kilowatts (kW) (5 horsepower [hp]), or pumps with low specific speeds, ns < 15 (Ns < 800), the manufacturer may recommend an alternate POR that could be more expansive or more restrictive.",
+    "output": "1. Item: alternate POR\n2. Property: recommendation\n3. Value: For smaller pumps, less than 4 kilowatts (kW) (5 horsepower [hp]), or pumps with low specific speeds, ns < 15 (Ns < 800)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For larger pumps, greater than 1.0 MW, or pumps with an unstable head curve, the manufacturer may recommend a more restrictive POR.",
+    "output": "1. Item: restrictive POR\n2. Property: recommendation\n3. Value: for larger pumps, greater than 1.0 MW, or pumps with an unstable head curve"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Well-matched flow in higher specific speed pumps occurs in a narrower flow range.",
+    "output": "1. Item: high specific speed pumps\n2. Property: Well-matched flow\n3. Value: occurs in a narrower flow range"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For slurry pumps handling high concentrations of abrasive solids, the generally acceptable range of rates of flow is primarily determined by wear considerations of the wear components.",
+    "output": "1. Item: slurry pumps\n2. Property: acceptable flow rate range\n3. Value: determined by wear considerations"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Refer to ANSI/HI 12.1-12.6 Rotodynamic (Centrifugal) Slurry Pumps for Nomenclature, Definitions, Applications, and Operation for information.",
+    "output": "1. Item: rotodynamic pumps\n2. Property: information reference\n3. Value: ANSI/HI 12.1-12.6"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "A wider range of rates of flow, outside the POR, over which the service life of a pump is acceptable, is designated the allowable operating region (AOR).",
+    "output": "1. Item: allowable operating region (AOR)\n2. Property: designation\n3. Value: A wider range of rates of flow, outside the POR, over which the service life of a pump is acceptable"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The limits of AOR are determined by requirements other than energy consumption, and should be defined with the help of the pump manufacturer.",
+    "output": "1. Item: AOR\n2. Property: determination\n3. Value: by requirements other than energy consumption with the help of the pump manufacturer"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Operation in regions that are not fully defined by the pump curve (head, efficiency, and NPSH) should not be undertaken without consultation with the manufacturer.",
+    "output": "1. Item: operation\n2. Property: limitation\n3. Value: not be undertaken without consultation with the manufacturer in regions that are not fully defined by the pump curve"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "AOR depends on a large number of factors, some of which are application-specific.",
+    "output": "1. Item: AOR\n2. Property: dependency\n3. Value: on a large number of factors, some of which are application-specific"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For the purpose of this guideline it is assumed that the pumped liquid is a Newtonian pure liquid with no vapor, gas, suspended solids, or abrasives.",
+    "output": "1. Item: pumped liquid\n2. Property: assumption\n3. Value: Newtonian pure liquid"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Certain fluid mixtures may have other characteristics that affect the AOR.",
+    "output": "1. Item: Certain fluid mixtures\n2. Property: characteristics \n3. Value: affecting the AOR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For example, the minimum rate of flow when pumping a fluid that contains entrained gases may be limited by gas accumulation at the eye of the impeller.",
+    "output": "1. Item: minimum rate of flow\n2. Property: limitation\n3. Value: limited by gas accumulation at the eye of the impeller"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "These considerations are outside the scope of this guideline.",
+    "output": "1. Item: These considerations\n2. Property: limitation\n3. Value: outside the scope of this guideline"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Bearing life will be reduced and noise, vibration, and component stresses will be increased when a pump is operated outside its POR.",
+    "output": "1. Item: pump\n2. Property: impact of operating outside the POR \n3. Value: Bearing life will be reduced and noise, vibration, and component stresses will be increased"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "As a result, service life of a pump operated within the AOR may be lower than within the POR.",
+    "output": "1. Item: pump\n2. Property: service life comparison\n3. Value: lower in AOR than in POR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "It is recommended that the calculated bearing life be a minimum of two years of operation in this range (basic rating life L10 equal to or greater than 17,500 hours).",
+    "output": "1. Item: calculated bearing life\n2. Property: recommendation\n3. Value: minimum two years of operation in this range (basic rating life L10 equal to or greater than 17,500 hours)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "When a manufacturer's recommendations deviate significantly from these guidelines, or a concern exists regarding the ability of the pump to operate reliably at the specified rate of flow, a factory test should be specified.",
+    "output": "1. Item: factory test\n2. Property: specification condition\n3. Value: When a manufacturer's recommendations deviate significantly from these guidelines, or a concern exists regarding the ability of the pump to operate reliably at the specified rate of flow"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Characteristics that may be monitored during the test include one or more of the following as appropriate:",
+    "output": "1. Item: pump characteristics\n2. Property: monitoring\n3. Value: one or more characteristics of the following, during factory test "
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The manufacturer and purchaser should agree to acceptance criteria for the above at the time the pump contract is developed.",
+    "output": "1. Item: acceptance criteria at the pump contract\n2. Property: agreement\n3. Value: made between manufacturer and purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Following is a list of the factors that a pump manufacturer considers when establishing the AOR.",
+    "output": "1. Item: list of the factors for a pump manufacturer to considers when establishing the AOR\n2. Property: demonstartion\n3. Value: in the followings"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Within the AOR, the manufacturer has determined that none of the factors exceeds limits that will severely impact the service life of the pump.",
+    "output": "1. Item: the factors within the AOR\n2. Property: determination\n3. Value: not to exceed the limits severely impacting the service life of the pump"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The factor that determines the upper or lower limits of the AOR will normally vary with pump type and specific design, and may not be evident from the manufacturer’s literature.",
+    "output": "1. Item: AOR limits\n2. Property: influencing factors\n3. Value: vary with pump type and specific design, and may not be evident from the manufacturer’s literature"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Hydraulic loads acting on the impeller depend on type of discharge casing, vary significantly with the rate of flow, and impact the magnitude and direction of the loads and deflections on the shaft, seals, and bearings.",
+    "output": "1. Item: hydraulic loads on the impeller\n2. Property: dependency\n3. Value: type of discharge casing and rate of flow, and impact the loads on the shaft, seals, and bearings"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Manufacturers may limit the AOR for pumps to achieve a specified bearing life.",
+    "output": "1. Item: AOR\n2. Property: limitation\n3. Value: to achieve specified bearing life"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pumps with sleeve type and hydrodynamic bearings do not have a calculated bearing life with respect to rate of flow.",
+    "output": "1. Item: Pumps with sleeve type and hydrodynamic bearings\n2. Property: bearing life \n3. Value: no calculated bearing life with respect to rate of flow"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Operating range limitations may be considered in calculating bearing whirl, lubrication, bearing materials, and maximum bearing load.",
+    "output": "1. Item: Operating range limitations\n2. Property: consideration\n3. Value: in calculating bearing whirl, lubrication, bearing materials, and maximum bearing load"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "ANSI/HI 1.3 Rotodynamic (Centrifugal) Pumps for Design and Application and ANSI/HI 2.3 Rotodynamic (Vertical) Pumps for Design and Application provide additional information on bearing life.",
+    "output": "1. Item: additional information reference on bearing life\n2. Property: standard\n3. Value: ANSI/HI 1.3 and ANSI/HI 2.3"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Hydraulic loads originating in the impeller and casing are transmitted through the shaft to the bearings.",
+    "output": "1. Item: hydraulic loads originating in the impeller and casing\n2. Property: transmission\n3. Value: through the shaft to the bearings"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pump casing design and operating point can have an impact on the magnitude and direction of the radial loads imposed on the shaft.",
+    "output": "1. Item: pump casing design and operating point\n2. Property: impact\n3. Value: magnitude and direction of radial loads on the shaft"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pump casing designs such as volute, circular, and diffuser types are used to optimize the combination of hydraulic loading and performance.",
+    "output": "1. Item: pump casing designs\n2. Property: types\n3. Value: volute, circular, and diffuser, to optimize the combination of hydraulic loading and performance"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "It is the responsibility of the manufacturer to identify the AOR for the selected casing and shaft design to achieve an acceptable shaft fatigue life.",
+    "output": "1. Item: manufacturer\n2. Property: responsibility\n3. Value: identify the AOR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Hydraulic loads acting on the impeller produce deflections in mechanical components.",
+    "output": "1. Item: impeller\n2. Property: hydraulic loads impact\n3. Value: deflections in mechanical components"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "As loads increase, deflections may become so large as to result in contact between rotating and stationary parts.",
+    "output": "1. Item: rotating and stationary parts\n2. Property: contact condition\n3. Value: so large deflections due to increased loads"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Each manufacturer evaluates their design and operating experience to determine AOR limits, to avoid damaging internal mechanical contact.",
+    "output": "1. Item: AOR limits\n2. Property: determination\n3. Value: by the evaluation of each manufacturer's design and operating experience"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Excessive shaft deflection will cause angular misalignment at the faces of a mechanical seal, which subsequently will reduce the shaft seal life.",
+    "output": "1. Item: Excessive shaft deflection\n2. Property: effect\n3. Value: angular misalignment at the faces of a mechanical seal"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Most process pump manufacturers limit the AOR to operating conditions where the shaft deflection by design at the seal faces is 0.05 mm (0.002 in) or less.",
+    "output": "1. Item: AOR to operating conditions\n2. Property: limitation\n3. Value: for the shaft deflection by design at the seal faces to be 0.05 mm (0.002 in) or less, by most process pump manufacturers"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Most seal designs and all compression-packed pumps permit greater deflections, continuous rates of flow limits (both maximum and minimum) are application-specific.",
+    "output": "1. Item: mechanical seals and compression-packed pumps\n2. Property: characteristics \n3. Value: permit greater deflections"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "See the joint HI and FSA publication Mechanical Seals for Pumps: Application Guidelines for additional information.",
+    "output": "1. Item: additional information\n2. Property: reference\n3. Value: HI and FSA Mechanical Seals for Pumps: Application Guidelines"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Change in momentum of the flow through the impeller eye, which in a centrifugal impeller makes a turn from axial direction to radial, produces a thrust force away from the suction.",
+    "output": "1. Item: flow through the impeller eye\n2. Property: momentum change\n3. Value: produces thrust force away from the suction"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "This force increases proportionally to the square of the rate of flow.",
+    "output": "1. Item: this force\n2. Property: proportionality\n3. Value: to the square of the rate of flow"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "If the thrust bearings are not designed to absorb this thrust reversal, then the maximum allowable rate of flow should be limited.",
+    "output": "1. Item: maximum allowable rate of flow\n2. Property: limitation\n3. Value: If the thrust bearings are not designed to absorb this thrust reversal"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "ANSI/HI 1.3 Rotodynamic (Centrifugal) Pumps for Design and Application provides a recommended practice for calculating the minimum thermal rate of flow.",
+    "output": "1. Item: minimum thermal rate of flow\n2. Property: recommended calculation practice\n3. Value: ANSI/HI 1.3 Rotodynamic (Centrifugal) Pumps for Design and Application"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "This rate of flow is dependent on the specific heat, density, and the vapor pressure-temperature relationship of the pumped fluid.",
+    "output": "1. Item: this rate of flow\n2. Property: dependency\n3. Value: specific heat, density, and the vapor pressure-temperature relationship of the pumped fluid"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The HI Standards specify the maximum allowable vibration for rotodynamic pumps.",
+    "output": "1. Item: HI Standards\n2. Property: specification\n3. Value: maximum allowable vibration"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "These pumps typically exhibit a minimum vibration near the BEP, with increases in vibration at higher and lower rates of flow.",
+    "output": "1. Item: These pumps\n2. Property: vibration levels\n3. Value: minimum near BEP"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Vibration levels should be considered when establishing the AOR.",
+    "output": "1. Item: vibration levels\n2. Property: consideration\n3. Value: when establishing the AOR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Refer to ANSI/HI 9.6.4 Rotodynamic (Centrifugal and Vertical) Pumps for Vibration Measurements and Allowable Values.",
+    "output": "1. Item: Rotodynamic (Centrifugal and Vertical) Pumps\n2. Property: Vibration Measurements and Allowable Values\n3. Value: Refer to ANSI/HI 9.6.4 "
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pumps that operate at higher energy levels typically emit higher noise levels.",
+    "output": "1. Item: pumps\n2. Property: noise level\n3. Value: higher at higher energy level operation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "It is often found that, at higher and lower rates of flow, and lower NPSH margins, the noise changes from a sound characterized as sand sliding down a chute, to one of gravel or rocks.",
+    "output": "1. Item: noise\n2. Property: change\n3. Value: from a sound characterized as sand sliding down a chute, to one of gravel or rocks"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Gravel and rock sounds are usually caused by cavitation in the pump suction, and may result in mechanical damage and can limit the AOR.",
+    "output": "1. Item: Gravel and rock sounds\n2. Property: cause and effect\n3. Value: caused by cavitation in the pump suction, and result in mechanical damage and limit the AOR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Low specific speed pumps may have power curves that increase with increasing rate of flow, whereas high specific speed pumps have power curves that increase with decreasing rate of flow.",
+    "output": "1. Item: low/high specific speed pumps\n2. Property: power curves characteristics\n3. Value: increase with increasing/decreasing rate of flow"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The torsional stresses produced by the higher power requirements may limit the AOR.",
+    "output": "1. Item: torsional stresses\n2. Property: characteristics \n3. Value: produced by the higher power requirements and limit the AOR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Driver power capabilities may also limit the AOR.",
+    "output": "1. Item: driver power capabilities\n2. Property: limitation\n3. Value: limit the AOR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "High liquid velocities occur in the discharge casing.",
+    "output": "1. Item: high liquid velocities\n2. Property: occurrence\n3. Value:  in the discharge casing"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "In some designs the velocity head at high rates of flow may constitute most of the total head.",
+    "output": "1. Item: velocity head\n2. Property: constitution\n3. Value: most of the total head in some designs"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "In such cases, the static head may drop below the vapor pressure, resulting in cavitation.",
+    "output": "1. Item: static head\n2. Property: effect\n3. Value: drop below vapor pressure, resulting in cavitation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "When this happens, the manufacturer will limit the maximum flow to avoid cavitation damage.",
+    "output": "1. Item: pump\n2. Property: flow limitation\n3. Value: limit the maximum flow to avoid cavitation damage"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Figure 9.6.3.3.7a illustrates a typical relationship between NPSHA and NPSH3 for pumps with suction piping.",
+    "output": "1. Item: NPSHA and NPSH4\n2. Property: relationship\n3. Value: illustrated in Figure 9.6.3.3.8a for pumps with suction piping"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "As the rate of flow increases, the NPSH margin varies and can cause a restriction in the AOR.",
+    "output": "1. Item: NPSH margin\n2. Property: characteristics \n3. Value: varies as the rate of flow increasing and restricts the AOR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "NPSH3 is defined as the amount of NPSH required by the pump at a given rate of flow before cavitation results in a 3% drop in the developed head (first-stage head) of the pump.",
+    "output": "1. Item: NPSH3\n2. Property: definition\n3. Value: amount of NPSH required by the pump at a given rate of flow before cavitation results in a 3% drop in the developed head"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "NPSHR published by pump manufacturers may include a margin and be greater than NPSH3 determined from testing.",
+    "output": "1. Item: NPSHR\n2. Property: margin\n3. Value: may include and be greater than NPSH3"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For a submerged pump application with a stable suction level, the NPSHA remains constant while the NPSH3 may increase when operating away from BEP.",
+    "output": "1. Item: NPSHA\n2. Property: constancy\n3. Value: remains constant in submerged pump application with stable suction level"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "In Figure 9.6.3.3.7b, while NPSH margin may be conservative at operating condition B, margin may be only adequate at condition A and insufficient at condition C.",
+    "output": "1. Item: NPSH margin\n2. Property: operating condition\n3. Value: conservative at condition B, adequate at condition A, insufficient at condition C"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For more information on this subject, see ANSIHI 9.6.1 Rotodynamic (Centrifugal and Vertical) Pumps Guideline for NPSH Margin.",
+    "output": "1. Item: more information\n2. Property: reference\n3. Value: ANSI/HI 9.6.2"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Some centrifugal pump head — rate-of-flow curves exhibit a characteristic commonly referred to as droop.",
+    "output": "1. Item: pump head — rate-of-flow curves\n2. Property: characteristic\n3. Value: Some exhibit droop"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "A drooping head — rate-of-flow curve is one for which the zero rate of flow head (shutoff head) is lower than the maximum head on the curve.",
+    "output": "1. Item: drooping head — rate-of-flow curve\n2. Property: definition\n3. Value: the zero rate of flow head (shutoff head) is lower than the maximum head on the curve"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The pump is operated in parallel with one or more other pumps at a system head that is greater than the pump shutoff head.",
+    "output": "1. Item: pump operation\n2. Property: condition\n3. Value: in parallel with other pumps at system head greater than shutoff head"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "A continuously rising curve is required for control purposes.",
+    "output": "1. Item: continuously rising curve\n2. Property: requirement\n3. Value: required for control purposes."
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Applying pumps with drooping head curves in these conditions may cause the pump either to be pushed back to shutoff, or to \"hunt\" between two operating points.",
+    "output": "1. Item: pumps with drooping head curves\n2. Property: effect\n3. Value: pushed back to shutoff or \"hunt\" between two operating points"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "In such cases, the AOR may require further limitation and/or appropriate system controls may be implemented.",
+    "output": "1. Item: AOR\n2. Property: requirements\n3. Value: further limitation and/or appropriate system controls"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "In the absence of any of the above conditions, pumps with drooping head curves can perform as well as pumps with continually rising curves.",
+    "output": "1. Item: drooping head curves\n2. Property: performance\n3. Value: as well as pumps with continually rising curves in absence of specific conditions"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Mixed flow and axial flow pumps may exhibit a “dip” in the head — rate-of-flow curve.",
+    "output": "1. Item: mixed flow and axial flow pumps\n2. Property: head — rate-of-flow curve characteristic\n3. Value: exhibit a “dip” in the head"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Continuous operation in the dip region should always be avoided due to possibly damaging vibration and noise.",
+    "output": "1. Item: pump\n2. Property: continuous operation\n3. Value: should be avoided in the dip region"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For pumps with specific speeds above 120 (6000 US customary units), continuous operation must be avoided to the left of the dip region.",
+    "output": "1. Item: pumps with specific speeds above 120\n2. Property: continuous operation\n3. Value: must be avoided to the left of the dip region"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "If the system curve crosses the pump curve in two or more places, the pump should not be started against a closed discharge valve.",
+    "output": "1. Item: pump\n2. Property: starting condition\n3. Value: not be started against a closed discharge valve if the system curve crosses the pump curve in two or more places"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The existence of a dip in the head — rate-of-flow curve of a pump is not detrimental to use of the pump to the right of the dip region.",
+    "output": "1. Item: head — rate-of-flow curve dip\n2. Property: characterisitics\n3. Value: not detrimental to use of the pump to the right of the dip region"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Suction recirculation is associated with a partial (below BEP) rate of flow condition in which the flow in the inlet area of an impeller separates from the vanes and forms recirculating eddies.",
+    "output": "1. Item: suction recirculation\n2. Property: condition\n3. Value: associated with partial rate of flow below BEP"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "These eddies can produce large forces on the impeller, vibration, or damage.",
+    "output": "1. Item: These eddies\n2. Property: effects\n3. Value: produce large forces on the impeller, vibration, or damage"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Higher suction specific speed designs undergo an earlier onset of, and more intense, suction recirculation.",
+    "output": "1. Item: suction specific speed\n2. Property: highness\n3. Value: based on earlier onset of, and more intense, suction recirculation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Barrel pumps, such as used for boiler feed and pipeline services, are excluded from this figure due to the typically large shaft diameters that distort the relationship between the shaft and the impeller eye.",
+    "output": "1. Item: barrel pumps\n2. Property: exclusion\n3. Value: from this figure"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The pump manufacturer may use pump-specific knowledge of suction recirculation onset, along with other parameters that affect measurable performance and reliability, to determine the AOR.",
+    "output": "1. Item: pump-specific knowledge\n2. Property: use\n3. Value: to determine the AOR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "A given impeller design may exhibit a substantially higher value of minimum rate of flow to avoid suction recirculation.",
+    "output": "1. Item: impeller\n2. Property: design\n3. Value: minimum rate of flow exhibit substantially higher to avoid suction recirculation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "This might be attributed to one or more of the following: inlet flow prerotation, suction casing design, impeller eye diameter, impeller vane angle, impeller vane number, and impeller vane overlap.",
+    "output": "1. Item: This\n2. Property: attribution\n3. Value: to inlet flow prerotation, suction casing design, impeller eye diameter, impeller vane angle, impeller vane number, and impeller vane overlap"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "It should be noted that smaller pumps are inherently more robust than larger pumps with respect to the imposed loads.",
+    "output": "1. Item: smaller pumps\n2. Property: robustness\n3. Value: more robust than larger pumps with respect to imposed loads"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "A manufacturer considers mechanical robustness in determining the AOR, and a broader range of operation can frequently be set for smaller pumps.",
+    "output": "1. Item: AOR\n2. Property: determination\n3. Value: mechanical robustness considered by manufacturer, and a broader range of operation set for smaller pumps"
+  }
+]

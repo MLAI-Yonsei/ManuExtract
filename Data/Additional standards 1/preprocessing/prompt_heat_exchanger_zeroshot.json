@@ -1,0 +1,697 @@
+[
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.1.1 All heat exchangers shall have two design temperatures for each side, a maximum design temperature and a minimum design metal temperature (MDMT), as specified by the purchaser (e.g. in the form shown in Annex C).",
+    "output": "1. Item: All heat exchangers\n2. Property: design temperatures\n3. Value: have two design temperatures for each side, a maximum design temperature and a minimum design metal temperature (MDMT), as specified by the purchaser (e.g. in the form shown in Annex C)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.1.2 The design temperature of a component (including external bolting) influenced by both the shell side and tube side fluids shall be the shell side or tube side design temperature, whichever is the more severe.",
+    "output": "1. Item: component (including external bolting) influenced by both the shell side and tube side fluids\n2. Property: design temperature\n3. Value: shell side or tube side design temperature, whichever is the more severe"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.1.3 The input data needed to design an expansion joint shall be provided by the purchaser (e.g. in the form shown in Annex C).",
+    "output": "1. Item: expansion joint\n2. Property: input data needed to design\n3. Value: provided by the purchaser (e.g. in the form shown in Annex C)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.2.1 If cladding (including weld overiay) is used, the full thickness of the cladding shall be used as corrosion allowance unless specified otherwise or approved by the purchaser.",
+    "output": "1. Item: cladding (including weld overiay)\n2. Property: full thickness\n3. Value: used as corrosion allowance unless specified otherwise or approved by the purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.2.2 The minimum cladding thickness at the tube side face of a tubesheet shall not be less than 10 mm (3/8 in) when tubes are expanded only, and 5 mm (3/16 in) when tubes are welded to the tubesheet.",
+    "output": "1. Item: tubesheet\n2. Property: minimum cladding thickness at tube side face\n3. Value: not be less than 10 mm (3/8 in) when tubes are expanded only, and 5 mm (3/16 in) when tubes are welded to the tubesheet"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The minimum cladding thickness on the shell side face shall not be less than 10 mm (3/8 in).",
+    "output": "1. Item: shell side face\n2. Property: minimum cladding thickness\n3. Value: not be less than 10 mm (3/8 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Weld overlays shall have sufficient thickness to provide the specified chemical composition to a depth of at least 1,5 mm (1/16 in).",
+    "output": "1. Item: weld overlays\n2. Property: Thickness\n3. Value: have sufficient thickness to provide the specified chemical composition to a depth of at least 1,5 mm (1/16 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.3.1 The fixed shell support of removable-bundle heat exchangers shall be designed to withstand a longitudinal force equal to 150 % of the bundle mass applied at the heat exchanger bundle centreline.",
+    "output": "1. Item: removable-bundle heat exchangers\n2. Property: fixed shell support\n3. Value: designed to withstand a longitudinal force equal to 150 % of the bundle mass applied at the heat exchanger bundle centreline"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The shear stress for supports shall not exceed 40 % of the yield strength of the material.",
+    "output": "1. Item: supports\n2. Property: shear stress\n3. Value: not exceed 40 % of the yield strength of the material"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.3.2 Horizontal heat exchangers shall be provided with two or more saddles designed to support the heat exchanger under all specified conditions.",
+    "output": "1. Item: horizontal heat exchangers\n2. Property: provision\n3. Value: provided with two or more saddles designed to support the heat exchanger under all specified conditions"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "a) Saddles shall be attached to saddle-bearing plates.",
+    "output": "1. Item: saddles\n2. Property: attachment\n3. Value: attached to saddle-bearing plates"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "b) The bearing surface of the saddles shall be at least one-third of the circumference of the shell.",
+    "output": "1. Item: saddles\n2. Property: bearing surface\n3. Value: at least one-third of the circumference of the shell"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "c) The saddle-bearing plates shall have the same nominal chemical composition as the shell and shall be continuously welded directly to the heat exchanger shells.",
+    "output": "1. Item: saddle-bearing plates\n2. Property: nominal chemical composition\n3. Value: have the same nominal chemical composition as the shell and shall be continuously welded directly to the heat exchanger shells"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "d) The saddle-bearing plates shall be provided with vent holes 6 mm (1/4 in) in diameter, located at the vertical centreline.",
+    "output": "1. Item: saddle-bearing plates\n2. Property: vent holes\n3. Value: provided with vent holes 6 mm (1/4 in) in diameter, located at the vertical centreline"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "e) The saddle-bearing plates shall be at least 6 mm (1/4 in) thick and shall have all corners rounded to a radius of at least 25 mm (1 in).",
+    "output": "1. Item: saddle-bearing plates\n2. Property: thickness\n3. Value: at least 6 mm (1/4 in) thick and shall have all corners rounded to a radius of at least 25 mm (1 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.3.3 The lower shells of stacked removable-bundle heat exchangers shall be designed to carry the superimposed loads without suffering distortion that can cause binding of the tube bundles.",
+    "output": "1. Item: stacked removable-bundle heat exchangers\n2. Property: lower shells\n3. Value: designed to carry the superimposed loads without suffering distortion that can cause binding of the tube bundles"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.3.4 The vendor's design shall provide for a shim allowance of approximately 6 mm (1/4 in) between the faces of stacked heat exchanger intermediate supports.",
+    "output": "1. Item: vendor's design\n2. Property: shim allowance\n3. Value: provide for a shim allowance of approximately 6 mm (1/4 in) between the faces of stacked heat exchanger intermediate supports"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.3.5 For horizontal heat exchangers, slotted holes shall be provided in the baseplate of all but one of the saddles, to allow for longitudinal movement due to thermal expansion or contraction.",
+    "output": "1. Item: horizontal heat exchangers\n2. Property: slotted holes \n3. Value: provided in the baseplate of all but one of the saddles, to allow for longitudinal movement due to thermal expansion or contraction"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The length of the slot shall be equal to the anchor bolt diameter, plus the allowance for longitudinal movement, plus 8 mm (5/16 in).",
+    "output": "1. Item: (horizontal heat exchangers)\n2. Property: length of the slot\n3. Value: equal to the anchor bolt diameter, plus the allowance for longitudinal movement, plus 8 mm (5/16 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.4.1 Structural bracing shall not be used to retain pressure.",
+    "output": "1. Item: structural bracing\n2. Property: use\n3. Value: not used to retain pressure"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.4.2 The pressure differential used to calculate the pass-partition plate thickness in accordance with TEMA (8th edition), RCB-9.132, shall be the allowable tube-side pressure drop of the entire exchanger unit.",
+    "output": "1. Item: pass-partition plate\n2. Property: thickness calculation pressure differential\n3. Value: pressure differential used to calculate the pass-partition plate thickness in accordance with TEMA (8th edition), RCB-9.132, shall be the allowable tube-side pressure drop of the entire exchanger unit"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.5.1 Floating-head cover bolting shall comply with TEMA (8th edition), Section 5, Paragraph RCB-11.",
+    "output": "1. Item: floating-head cover bolting\n2. Property: compliance\n3. Value: TEMA (8th edition), Section 5, Paragraph RCB-11"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Bolt spacings and clearances shall be not less than the minimum recommended by TEMA.",
+    "output": "1. Item: bolt spacings and clearances\n2. Property: minimum\n3. Value: not less than recommended by TEMA"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.5.2 Floating-head cover bolting shall be readily accessible and shall have adequate spanner (wrench) clearance between the floating-head bolts and the shell flange at the cover end when the shell cover is removed.",
+    "output": "1. Item: floating-head cover bolting\n2. Property: accessibility and clearance\n3. Value: readily accessible and shall have adequate spanner (wrench) clearance between the floating-head bolts and the shell flange at the cover end when the shell cover is removed"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.5.3 Packed floating-head tailpipe and packed floating tubesheet designs (e.g. TEMA types P and W) shall not be used.",
+    "output": "1. Item: Packed floating-head tailpipe and packed floating tubesheet designs (e.g. TEMA types P and W)\n2. Property: use\n3. Value: shall not be used"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.5.4 Floating heads shall be designed for design pressure on either side, with atmospheric pressure or vacuum (if specified) on the other side, unless otherwise specified by the purchaser.",
+    "output": "1. Item: floating heads\n2. Property: design\n3. Value: designed for design pressure on either side, with atmospheric pressure or vacuum (if specified) on the other side, unless otherwise specified by the purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Examples of acceptable floating-head designs are shown in Figure 1.",
+    "output": "1. Item: acceptable floating-head designs\n2. Property: examples\n3. Value: shown in Figure 1"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.5.5 Internal floating-head covers shall have the specified corrosion allowance on all wetted surfaces except gasket-seating surfaces.",
+    "output": "1. Item: internal floating-head covers\n2. Property: corrosion allowance \n3. Value: have the specified corrosion allowance on all wetted surfaces except gasket-seating surfaces"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The specified corrosion allowance shall be included on the back side of the floating-head backing device.",
+    "output": "1. Item: floating-head backing device\n2. Property: corrosion allowance\n3. Value: specified corrosion allowance shall be included on the back side"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.1.1 The minimum outside diameter of the tubes shall be 19,05 mm (3/4 in) unless otherwise specified or approved by the purchaser.",
+    "output": "1. Item: tubes\n2. Property: minimum outside diameter\n3. Value: 19,05 mm (3/4 in) unless otherwise specified or approved by the purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.1.2 The tube-wall thickness shall be as listed in Table 1, or thicker if required by the design conditions, unless otherwise specified or approved by the purchaser.",
+    "output": "1. Item: tube\n2. Property: tube-wall thickness\n3. Value: as listed in Table 1, or thicker if required by the design conditions, unless otherwise specified or approved by the purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.1.3 The mean radius of U-bends shall be not less than 1,5 times the nominal outside diameter of the tube.",
+    "output": "1. Item: U-bends\n2. Property: mean radius\n3. Value: not less than 1,5 times the nominal outside diameter of the tube"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.2.1 For a vertical heat exchanger where the stationary tubesheet is at the bottom, a suitable means of holding the bundle in place shall be provided.",
+    "output": "1. Item: vertical heat exchanger where the stationary tubesheet is at the bottom\n2. Property: suitable means\n3. Value: suitable means of holding the bundle in place shall be provided"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "If collar bolts or drilled-and-tapped holes are used, at least four shall be provided and their location shall be identified on the drawings and by stamped markings on the OD of the tubesheet.",
+    "output": "1. Item: collar bolts or drilled-and-tapped holes\n2. Property: minimum number\n3. Value: at least four shall be provided and their location shall be identified on the drawings and by stamped markings on the OD of the tubesheet"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.2.2 The distance between the edge of the tube holes and the edge of all gasket grooves shall be not less than 1,5 mm (1/16 in) for tubesheets with expanded tube-to-tubesheet joints and not less than 3 mm (1/8 in) for tubesheets with seal-welded or strength-welded tube-to-tubesheet joints.",
+    "output": "1. Item: tubesheets with expanded tube-to-tubesheet joints and tubesheets with seal-welded or strength-welded tube-to-tubesheet joints\n2. Property: distance between the edge of the tube holes and the edge of all gasket grooves\n3. Value: not less than 1,5 mm (1/16 in) for tubesheets with expanded tube-to-tubesheet joints and not less than 3 mm (1/8 in) for tubesheets with seal-welded or strength-welded tube-to-tubesheet joints"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.2.3 Tubesheets shall be designed for design pressure on either side, with atmospheric pressure or vacuum, if specified, on the other side unless otherwise specified or approved by the purchaser.",
+    "output": "1. Item: tubesheets\n2. Property: design\n3. Value: designed for design pressure on either side, with atmospheric pressure or vacuum, if specified, on the other side unless otherwise specified or approved by the purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.2.4 A full-diameter stationary tubesheet shall be provided for removable bundle exchangers with bonnets [see TEMA (8th edition), Figure N-1.2, Type B stationary head].",
+    "output": "1. Item: removable bundle exchangers with bonnets\n2. Property: full-diameter stationary tubesheet\n3. Value: provided [see TEMA (8th edition), Figure N-1.2, Type B stationary head]"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.3.1 The thickness of carbon steel or low-alloy steel (max. 9 % chromium) transverse baffles and support plates shall be not less than twice the specified shell side corrosion allowance.",
+    "output": "1. Item: carbon steel or low-alloy steel (max. 9 % chromium) transverse baffles and support plates\n2. Property: thickness\n3. Value: not less than twice the specified shell side corrosion allowance"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.3.2 Transverse baffles and support plates shall have notches that are 10 mm (3/8 in) high to facilitate drainage.",
+    "output": "1. Item: transverse baffles and support plates\n2. Property: notches\n3. Value: have notches that are 10 mm (3/8 in) high to facilitate drainage"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.3.3 If shell-side longitudinal baffles are used, the minimum clearance between the longitudinal baffle and the adjacent tubes shall be 3 mm (1/8 in).",
+    "output": "1. Item: shell-side longitudinal baffles\n2. Property: minimum clearance between the longitudinal baffle and the adjacent tubes\n3. Value: 3 mm (1/8 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.4.1 If required by TEMA (8th edition), RCB-4.61, impingement protection shall be provided by a plate baffle or rods on the tube bundle, an annular distributor or another means agreed upon by the purchaser and the vendor.",
+    "output": "1. Item: impingement protection\n2. Property: requirement\n3. Value: provided by a plate baffle or rods on the tube bundle, an annular distributor or another means agreed upon by the purchaser and the vendor If required by TEMA (8th edition), RCB-4.61"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.4.2 If an impingement plate baffle is used, it shall extend at least 25 mm (1 in) beyond the projection of the nozzle bore.",
+    "output": "1. Item: impingement plate baffle\n2. Property: extension beyond projection of nozzle bore\n3. Value: at least 25 mm (1 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.4.3 If an impingement plate baffle is used, the shell entrance and bundle entrance areas (as defined by TEMA) shall be not less than the flow area of the inlet nozzle.",
+    "output": "1. Item: impingement plate baffle\n2. Property: shell entrance and bundle entrance areas\n3. Value: not less than the flow area of the inlet nozzle"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.4.4 The nominal thickness of the impingement plate baffle shall be not less than 6 mm (1/4 in).",
+    "output": "1. Item: impingement plate baffle\n2. Property: nominal thickness\n3. Value: not less than 6 mm (1/4 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.4.5 The impingement plate baffle shall be adequately supported (e.g. by welding to at least two spacers) to avoid mechanical damage due to vibration.",
+    "output": "1. Item: impingement plate baffle\n2. Property: support\n3. Value: adequately supported (e.g. by welding to at least two spacers) to avoid mechanical damage due to vibration"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.4.6 Perforated impingement plate baffles shall not be used.",
+    "output": "1. Item: perforated impingement plate baffles\n2. Property: use\n3. Value: shall not be used"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.6.5.1 Bypass-sealing devices (such as seal bars, dummy tubes or tie-rods as shown in Figure 2) shall be used for non-isothermal service if bypass clearances exceed 16 mm (5/8 in) and shall be located as follows.",
+    "output": "1. Item: Bypass-sealing devices (such as seal bars, dummy tubes or tie-rods as shown in Figure 2)\n2. Property: use\n3. Value: used for non-isothermal service if bypass clearances exceed 16 mm (5/8 in) and shall be located as follows"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "a) If the distance between baffle-cut edges is six tube pitches or less, a single seal, located approximately halfway between the baffle cuts, shall be provided.",
+    "output": "1. Item: single seal, located approximately halfway between the baffle cuts\n2. Property: distance \n3. Value: provided, If the distance between baffle-cut edges is six tube pitches or less"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "If the distance between baffle-cut edges exceeds six tube pitches, multiple seals shall be provided.",
+    "output": "1. Item: baffle-cut edges\n2. Property: distance\n3. Value: If the distance between baffle-cut edges exceeds six tube pitches, multiple seals shall be provided"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "A seal shall be located every five to seven tube pitches between the baffle cuts, with the outermost seals not more than 75 mm (3 in) from each baffle-cut edge.",
+    "output": "1. Item: seal\n2. Property: location\n3. Value: located every five to seven tube pitches between the baffle cuts, with the outermost seals not more than 75 mm (3 in) from each baffle-cut edge"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Peripheral bypass seals shall extend from the peripheral edge of the transverse baffle into the tube bundle so that the clearance to the nearest tube does not exceed the nominal clearance between tubes.",
+    "output": "1. Item: peripheral bypass seals\n2. Property: extension\n3. Value: extend from the peripheral edge of the transverse baffle into the tube bundle so that the clearance to the nearest tube does not exceed the nominal clearance between tubes"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Internal bypass seals shall be installed so that the clearance to the nearest tube does not exceed the nominal clearance between tubes.",
+    "output": "1. Item: internal bypass seals\n2. Property: installment\n3. Value: installed so that the clearance to the nearest tube does not exceed the nominal clearance between tubes"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Bypass sealing devices shall either be located to minimize obstruction of mechanical cleaning lanes or shall be readily removable.",
+    "output": "1. Item: bypass sealing devices\n2. Property: location\n3. Value: either be located to minimize obstruction of mechanical cleaning lanes or shall be readily removable"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Continuous cleaning lanes shall be maintained for square (90°) and rotated-square (45°) pitch.",
+    "output": "1. Item: Continuous cleaning lanes\n2. Property: maintenance\n3. Value: maintained for square (90°) and rotated-square (45°) pitch"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The nominal thickness of seal strips shall be the nominal thickness of the transverse baffles or 6 mm (1/4 in), whichever is less.",
+    "output": "1. Item: seal strips\n2. Property: nominal thickness\n3. Value: nominal thickness of the transverse baffles or 6 mm (1/4 in), whichever is less"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Bypass seal strips shall be attached to the transverse baffles by continuous welds on one side of each baffle.",
+    "output": "1. Item: bypass seal strips\n2. Property: attachment\n3. Value: attached to the transverse baffles by continuous welds on one side of each baffle"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The leading and trailing edges of seal strips shall be provided with a radius or a bevel to prevent damage to the shell when inserting or removing the bundle.",
+    "output": "1. Item: seal strips\n2. Property: leading and trailing edges\n3. Value: provided with a radius or a bevel to prevent damage to the shell when inserting or removing the bundle"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Peripheral bypass-seal strips shall not restrict the bundle inlet or outlet flows.",
+    "output": "1. Item: peripheral bypass-seal strips\n2. Property: restriction\n3. Value: not restrict the bundle inlet or outlet flows"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For all removable bundles with a mass of more than 5 450 kg (12 000 lb), continuous sliding surfaces shall be provided to facilitate bundle removal.",
+    "output": "1. Item: all removable bundles with a mass of more than 5 450 kg (12 000 lb)\n2. Property: continuous sliding surfaces\n3. Value: provided to facilitate bundle removal"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "If skid bars are used, the following shall apply. a) A minimum of two skid bars shall be provided.",
+    "output": "1. Item: skid bars\n2. Property: minimum number\n3. Value: minimum of two skid bars shall be provided"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "b) They shall not be situated in the projected area of the nozzles.",
+    "output": "1. Item: skid bars\n2. Property: location\n3. Value: not situated in the projected area of the nozzles"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "e) Their leading and trailing edges shall be provided with a radius or a bevel to prevent damage to the shell when inserting or removing the bundle.",
+    "output": "1. Item: (skid bars)\n2. Property: leading and trailing edges\n3. Value: provided with a radius or a bevel to prevent damage to the shell when inserting or removing the bundle"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The tube-to-tubesheet joint shall be expanded only, unless otherwise specified or approved by the purchaser.",
+    "output": "1. Item: tube-to-tubesheet joint\n2. Property: method\n3. Value: expanded only, unless otherwise specified or approved by the purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "If welded joints are specified, the joint shall be made by one of the following methods: a) strength-welded only; b) strength-welded and expanded c) seal-welded and expanded.",
+    "output": "1. Item: welded joints\n2. Property: method\n3. Value: joint shall be made by one of the following methods: a) strength-welded only; b) strength-welded and expanded c) seal-welded and expanded"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Connections DN 40 (NPS 1%) and larger shall be flanged.",
+    "output": "1. Item: connections\n2. Property: size\n3. Value: DN 40 (NPS 1%) and larger shall be flanged"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The purchaser shall specify the required flange design code (e.g. ASME B16.5).",
+    "output": "1. Item: required flange\n2. Property: design code\n3. Value: (e.g. ASME B16.5) specified by the purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.2 If welded connections are specified, they shall be bevelled.",
+    "output": "1. Item: welded connections\n2. Property: bevel\n3. Value: If welded connections are specified, they shall be bevelled"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.3 Non-flanged connections smaller than DN 40 (NPS 1J4) shall be forged couplings with an equivalent rating to ASME B 16.11 class 6000 or shall be integrally reinforced welding fittings with tapered threads equivalent to ASME B 1.20.1, and shall comply with the pressure design code.",
+    "output": "1. Item: Non-flanged connections smaller than DN 40 (NPS 1J4) \n2. Property: rating\n3. Value: forged couplings with an equivalent rating to ASME B 16.11 class 6000 or shall be integrally reinforced welding fittings with tapered threads equivalent to ASME B 1.20.1, and shall comply with the pressure design code"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Threaded connections shall not be used in hydrogen or sour service.",
+    "output": "1. Item: Threaded connections\n2. Property: service\n3. Value: not be used in hydrogen or sour service"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.4 Flanged connections shall be of one of the following types: a) forged integrally flanged;",
+    "output": "1. Item: Flanged connections\n2. Property: type\n3. Value: one of the following types: a) forged integrally flanged"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.4 Flanged connections shall be of one of the following types: b) pipe or forged cylinder welded to forged welding-neck flange;",
+    "output": "1. Item: Flanged connections\n2. Property: type\n3. Value: one of the following types: b) pipe or forged cylinder welded to forged welding-neck flange"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.4 Flanged connections shall be of one of the following types: c) pipe welded to a forged slip-on flange, except as noted in 7.7.5.",
+    "output": "1. Item: Flanged connections\n2. Property: type\n3. Value: one of the following types: c) pipe welded to a forged slip-on flange, except as noted in 7.7.5"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.5 Slip-on flanges shall not be used in any of the following conditions: a) design pressure greater than 2 100 kPa (300 psi) gauge;",
+    "output": "1. Item: slip-on flanges\n2. Property: design pressure\n3. Value: not be used in any of the following conditions: a) design pressure greater than 2 100 kPa (300 psi) gauge"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.5 Slip-on flanges shall not be used in any of the following conditions: b) design temperature greater than 400 °C (750 °F);",
+    "output": "1. Item: slip-on flanges\n2. Property: design temperature\n3. Value: not be used in any of the following conditions: b) design temperature greater than 400 °C (750 °F)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.5 Slip-on flanges shall not be used in any of the following conditions: c) corrosion allowance greater than 3 mm (1/8 in);",
+    "output": "1. Item: slip-on flanges\n2. Property: corrosion allowance\n3. Value: not be used in any of the following conditions: c) corrosion allowance greater than 3 mm (1/8 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.5 Slip-on flanges shall not be used in any of the following conditions: d) hydrogen service;",
+    "output": "1. Item: slip-on flanges\n2. Property: service\n3. Value: not be used in any of the following conditions: d) hydrogen service"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.5 Slip-on flanges shall not be used in any of the following conditions: e) cyclic service, if the pressure design code requires fatigue analysis.",
+    "output": "1. Item: slip-on flanges\n2. Property: service\n3. Value: not be used in any of the following conditions: e) cyclic service, if the pressure design code requires fatigue analysis"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.6 The projection of flanged connections shall allow through-bolting to be removed from either side of the flange without removing the insulation.",
+    "output": "1. Item: flanged connections\n2. Property: projection\n3. Value: allow through-bolting to be removed from either side of the flange without removing the insulation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The insulation thickness shall be specified by the purchaser.",
+    "output": "1. Item: insulation\n2. Property: thickness\n3. Value: specified by the purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.7 Integrally reinforced nozzles shall be designed so that standard spanners (wrenches) fit the nuts without interference from nozzle neck reinforcement.",
+    "output": "1. Item: Integrally reinforced nozzles\n2. Property: design\n3. Value: designed so that standard spanners (wrenches) fit the nuts without interference from nozzle neck reinforcement"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.7.8 If chemical-cleaning connections are specified by the purchaser, their nominal size shall be not less than DN 50 (NPS 2).",
+    "output": "1. Item: chemical-cleaning connections\n2. Property: nominal size\n3. Value: not less than DN 50 (NPS 2)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.8.1 Channel and shell external girth joints shall be of through-bolted construction.",
+    "output": "1. Item: Channel and shell external girth joints\n2. Property: construction\n3. Value: through-bolted construction"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.8.2 Flanges for external girth joints shall be of the forged welding-neck type unless otherwise specified or approved by the purchaser.",
+    "output": "1. Item: Flanges for external girth joints\n2. Property: type\n3. Value: forged welding-neck type unless otherwise specified or approved by the purchaser"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.8.3 Nubbins shall not be used unless approved by the purchaser, in which case nubbins shall be located on the female (grooved) flange.",
+    "output": "1. Item: Nubbins\n2. Property: use and location\n3. Value: not be used unless approved by the purchaser, in which case nubbins shall be located on the female (grooved) flange"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.8.4 The nominal clearance between flanges after assembly shall be not less than 3 mm (1/8 in).",
+    "output": "1. Item: between flanges after assembly\n2. Property: nominal clearance\n3. Value: not less than 3 mm (1/8 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The clearance between flanges shall extend within the bolt circle to allow flanges to be checked for radial distortion caused by an excessive bolt load.",
+    "output": "1. Item: between flanges\n2. Property: clearance\n3. Value: extend within the bolt circle to allow flanges to be checked for radial distortion caused by an excessive bolt load"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.8.5 Flanges shall be spot-faced or back-faced to the extent required by ASME B 16.5 or the pressure design code.",
+    "output": "1. Item: Flanges\n2. Property: finish\n3. Value: spot-faced or back-faced to the extent required by ASME B 16.5 or the pressure design code"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.8.6 Hardened washers shall be provided under nuts for all bolts having diameters of 38 mm (11/2 in) or larger.",
+    "output": "1. Item: Hardened washers\n2. Property: bolts\n3. Value: provided under nuts for all bolts having diameters of 38 mm (11/2 in) or larger"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The washers shall be at least 6 mm (1/4 in) thick.",
+    "output": "1. Item: washer\n2. Property: thickness\n3. Value: at least 6 mm (1/4 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.8.7 If the use of bolt-tightening devices is specified by the purchaser, nozzles or girth flanges shall be designed to allow adequate clearance.",
+    "output": "1. Item: bolt-tightening devices\n2. Property: nozzles or girth flanges\n3. Value: designed to allow adequate clearance"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.8.8 Stationary tubesheet flange assembly shall be designed with the same type of gasket on the tube side and shell side, i.e. with similar compressive characteristics.",
+    "output": "1. Item: stationary tubesheet flange assembly\n2. Property: design\n3. Value: designed with the same type of gasket on the tube side and shell side, i.e. with similar compressive characteristics"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.8.9 Allowable stresses that have been established on the basis of short-time tensile strength shall not be used for the design of girth flanges, gasketed tubesheets and gasketed flat covers.",
+    "output": "1. Item: girth flanges, gasketed tubesheets, gasketed flat covers\n2. Property: design\n3. Value: Allowable stresses that have been established on the basis of short-time tensile strength shall not be used"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.9.1 Expansion joints shall be thin-wall bellows or thick walled (e.g. flanged or flanged and flued).",
+    "output": "1. Item: Expansion joints\n2. Property: type\n3. Value: thin-wall bellows or thick walled (e.g. flanged or flanged and flued)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.9.2 Expansion joints made of thin-walled bellows shall comply with the following. a) They shall be protected from internal damage with a metallic liner mounted flush with the inside of the shell.",
+    "output": "1. Item: Expansion joints made of thin-walled bellows\n2. Property: compliance\n3. Value: comply with the following. a) They shall be protected from internal damage with a metallic liner mounted flush with the inside of the shell"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The liner material shall be compatible with the base material to which it is attached.",
+    "output": "1. Item: liner\n2. Property: material \n3. Value: compatible with the base material to which it is attached"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Carbon-steel liners shall be at least 6 mm (1/4 in) thick.",
+    "output": "1. Item: carbon-steel liners\n2. Property: thickness\n3. Value: at least 6 mm (1/4 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Liners of stainless steel or other alloys shall be at least 3 mm (1/8 in) thick.",
+    "output": "1. Item: liners of stainless steel or other alloys\n2. Property: thickness\n3. Value: at least 3 mm (1/8 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For vertically mounted bellows, the liner shall be attached at the top and open at the bottom to allow for free drainage.",
+    "output": "1. Item: vertically mounted bellows\n2. Property: liner\n3. Value: attached at the top and open at the bottom to allow for free drainage"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "b) They shall be protected from external damage with a metallic cover that is designed to remain intact during shipping, handling and operation.",
+    "output": "1. Item: (expansion joint)\n2. Property: protection\n3. Value: protected from external damage with a metallic cover that is designed to remain intact during shipping, handling and operation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "c) They shall be designed to meet the requirements of the pressure design code.",
+    "output": "1. Item: (expansion joint)\n2. Property: design\n3. Value: designed to meet the requirements of the pressure design code"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "In no case shall the cycle life, as calculated by EJMA, be less than 1 000 normal operating cycles.",
+    "output": "1. Item: (expansion joint)\n2. Property: cycle life\n3. Value: In no case shall the cycle life, as calculated by EJMA, be less than 1 000 normal operating cycles"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "They shall have the bellows formed from a cylinder that has only longitudinal weld seams.",
+    "output": "1. Item: bellows\n2. Property: formation\n3. Value: from a cylinder with only longitudinal weld seams"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Bellow welds, including attachment welds, shall be 100% examined by the liquid-penetrant method.",
+    "output": "1. Item: Bellow welds, including attachment welds\n2. Property: examination\n3. Value: 100% examined by the liquid-penetrant method"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The acceptance criteria shall comply with the pressure design code.",
+    "output": "1. Item: acceptance criteria\n2. Property: compliance\n3. Value: with the pressure design code"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Floating-head tailpipe expansion joints shall be fitted with permanent stays that prevent damage during maintenance and hydrostatic testing with the shell cover removed.",
+    "output": "1. Item: floating-head tailpipe expansion joints\n2. Property: fit\n3. Value: fitted with permanent stays that prevent damage during maintenance and hydrostatic testing with the shell cover removed"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The stays shall permit the expansion joints full design movements.",
+    "output": "1. Item: stays\n2. Property: expansion joints\n3. Value: permit the expansion joints full design movements"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.1 Gaskets in hydrocarbon or steam service shall be double-jacketed metal with a soft gasket filler, solid metal, serrated metal with a soft gasket-seal facing, corrugated metal with a soft gasket-seal facing or spiral-wound.",
+    "output": "1. Item: Gaskets in hydrocarbon or steam service\n2. Property: material\n3. Value: double-jacketed metal with a soft gasket filler, solid metal, serrated metal with a soft gasket-seal facing, corrugated metal with a soft gasket-seal facing or spiral-wound"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.2 Pass partition rib(s) for double-jacketed, solid-metal, serrated-metal and corrugated-metal gaskets shall be of the same materials as the perimeter portion of the gasket.",
+    "output": "1. Item: Pass partition rib(s) for double-jacketed, solid-metal, serrated-metal and corrugated-metal gaskets\n2. Property: material\n3. Value: same materials as the perimeter portion of the gasket"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.2 Pass partition ribs shall be designed and constructed such that they do not inhibit the compression or seating of the perimeter gasket.",
+    "output": "1. Item: pass partition rib(s)\n2. Property: design and construction\n3. Value: designed and constructed such that they do not inhibit the compression or seating of the perimeter gasket"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.3 If the gasket OD is less than or equal to 610 mm (24 in), the perimeter portion shall be of one piece (non­welded) construction.",
+    "output": "1. Item: gasket\n2. Property: OD\n3. Value: less than or equal to 610 mm (24 in), the perimeter portion shall be of one piece (non­welded) construction"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.3 a) Double-jacketed gaskets shall have no more than one weld in the perimeter portion.",
+    "output": "1. Item: double-jacketed gaskets\n2. Property: welds\n3. Value: no more than one in the perimeter portion"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.3 b) Other gasket types shall have no more than two welds in the perimeter portion, or no more than the ratio of gasket OD /610 mm (24 in), whichever is greater.",
+    "output": "1. Item: other gasket types\n2. Property: welds\n3. Value: no more than two in the perimeter portion or no more than the ratio of gasket OD /610 mm (24 in), whichever is greater"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.4 a) Welds in the perimeter portion of the gasket shall be continuous and full-penetration.",
+    "output": "1. Item: Welds in the perimeter portion of the gasket\n2. Property: continuity\n3. Value: continuous and full-penetration"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.4 a) The cross-section, finish and flatness of these welded areas shall match the remainder of the perimeter gasket.",
+    "output": "1. Item: welded areas\n2. Property: cross-section, finish and flatness\n3. Value: match the remainder of the perimeter gasket"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.4 b) Welds shall not inhibit the sealing or compression of the perimeter gasket or pass ribs.",
+    "output": "1. Item: Welds\n2. Property: inhibition\n3. Value: not inhibit the sealing or compression of the perimeter gasket or pass ribs"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.5 If adhesives are used to attach facings, they shall be compatible with the core (e.g. chloride content).",
+    "output": "1. Item: adhesives\n2. Property: compatibility\n3. Value: compatible with the core (e.g. chloride content) If adhesives are used to attach facings"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.6 a) Double-jacketed gaskets shall be manufactured with the filler material completely enclosed in metal.",
+    "output": "1. Item: double-jacketed gaskets\n2. Property: manufacture\n3. Value: with the filler material completely enclosed in metal"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.6 b) Filler materials shall be selected so as to ensure that no degradation occurs during manufacturing (e.g. welding).",
+    "output": "1. Item: filler materials\n2. Property: selection\n3. Value: selected so as to ensure that no degradation occurs during manufacturing (e.g. welding)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.7 a) The top of the serrations at the weld shall be flat in comparison with the rest of the gasket.",
+    "output": "1. Item: The top of the serrations at the weld\n2. Property: flatness\n3. Value: flat in comparison with the rest of the gasket"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.7 a) The grooves shall be dressed to match the standard profile.",
+    "output": "1. Item: grooves\n2. Property: dress\n3. Value: dressed to match the standard profile"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.7 b) Thickness variations in their metallic core shall not exceed 0.13 mm (0.005 in) along a 25.4 mm (1 in) band.",
+    "output": "1. Item: metallic core\n2. Property: thickness variations\n3. Value: not exceed 0.13 mm (0.005 in) along a 25.4 mm (1 in) band"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.7 b) If welds are present, the center of the bands shall be located at the center of the welds.",
+    "output": "1. Item: metallic core\n2. Property: welds\n3. Value: center of the bands shall be located at the center of the welds"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.7 c) They shall have no facing joints coincident with a facing joint on the opposite sealing face or coincident with any welds in the core.",
+    "output": "1. Item: (serrated gaskets)\n2. Property: facing joints\n3. Value: have no facing joints coincident with a facing joint on the opposite sealing face or coincident with any welds in the core"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.7 d) They shall have one-piece continuous facing materials (no joints) if the outside diameter is less than 1 m (40 in).",
+    "output": "1. Item: (serrated gaskets)\n2. Property: facing materials\n3. Value: have one-piece continuous facing materials (no joints) if the outside diameter is less than 1 m (40 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.8 a) They shall have a minimum core thickness of 0.46 mm (0.018 in).",
+    "output": "1. Item: (metal gaskets)\n2. Property: core thickness\n3. Value: have a minimum core thickness of 0.46 mm (0.018 in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.8 b) They shall have corrugations in the weld area that match the gasket profile.",
+    "output": "1. Item: (metal gaskets)\n2. Property: corrugations\n3. Value: have corrugations in the weld area that match the gasket profile"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.8 e) There shall be an overlap of the facing material of 1.5 mm (1/16 in) to 3 mm (1/8 in) if the OD is 1 m (40 in) or larger, except that butt joints (gap-free) may be used for flexible-graphite facings.",
+    "output": "1. Item: (metal gaskets)\n2. Property: overlap\n3. Value: overlap of the facing material of 1.5 mm (1/16 in) to 3 mm (1/8 in) if the OD is 1 m (40 in) or larger, except that butt joints (gap-free) may be used for flexible-graphite facings"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.10.9 Spiral-wound gaskets shall be provided with a means to prevent over-compression or buckling.",
+    "output": "1. Item: spiral-wound gaskets\n2. Property: provision\n3. Value: provided with a means to prevent over-compression or buckling"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.11.1 The lifting device shall be a weld-on lug or ring provided with a hole not less than 38 mm (11/2 in) in diameter.",
+    "output": "1. Item: lifting device\n2. Property: type\n3. Value: weld-on lug or ring provided with a hole not less than 38 mm (11/2 in) in diameter"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.11.1 Wherever possible, the lug or ring shall be located at the top of the component, above its center of gravity.",
+    "output": "1. Item: lug or ring\n2. Property: location\n3. Value: located at the top of the component, above its center of gravity"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.11.1 The lifting device shall be designed to support at least twice the mass of the component.",
+    "output": "1. Item: lifting device\n2. Property: design\n3. Value: designed to support at least twice the mass of the component"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.11.2 For stacked heat exchangers, two lifting lugs or rings shall be provided on all covers, located at the top, approximately 45° from the vertical centerline.",
+    "output": "1. Item: stacked heat exchangers\n2. Property: two lifting lugs or rings\n3. Value: provided on all covers, located at the top, approximately 45° from the vertical centerline"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.11.3 Stationary tubesheets shall be provided with pulling lugs or tapped holes on their outer face for the insertion of eyebolts to aid removal of the bundle from the shell.",
+    "output": "1. Item: stationary tubesheets\n2. Property: provision\n3. Value: provided with pulling lugs or tapped holes on their outer face for the insertion of eyebolts to aid removal of the bundle from the shell"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pulling lugs and tapped holes shall be designed for a pulling force equal to at least 150 % of the bundle mass.",
+    "output": "1. Item: pulling lugs and tapped holes\n2. Property: design\n3. Value: for a pulling force equal to at least 150% of the bundle mass"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Each tapped hole shall be fitted with a threaded plug of the same material as the tubesheet face.",
+    "output": "1. Item: Each tapped hole\n2. Property: fit\n3. Value: fitted with a threaded plug of the same material as the tubesheet face"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The exposed section of the plug shall be at least 50 mm (2 in) long.",
+    "output": "1. Item: exposed section of the plug\n2. Property: length\n3. Value: at least 50 mm (2 in) long"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "7.11.4 All vertical heat exchangers shall be provided with lifting devices for the entire heat exchanger.",
+    "output": "1. Item: All vertical heat exchangers\n2. Property: provision\n3. Value: provided with lifting devices for the entire heat exchanger"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The lifting devices shall be positioned above the centre of gravity of the heat exchanger.",
+    "output": "1. Item: lifting devices\n2. Property: position\n3. Value: above the centre of gravity of the heat exchanger"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "If the purchaser specifies that the tube side and/or shell side will be exposed to hydrogen service, totally enclosed spaces between welds shall be eliminated or vented with a hole of 6 mm (1/4 in) in diameter.",
+    "output": "1. Item: tube side and/or shell side\n2. Property: exposure\n3. Value: exposed to hydrogen service, totally enclosed spaces between welds shall be eliminated or vented with a hole of 6 mm (1/4 in) in diameter"
+  }
+]

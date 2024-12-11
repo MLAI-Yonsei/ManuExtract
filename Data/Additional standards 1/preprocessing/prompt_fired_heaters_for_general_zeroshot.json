@@ -1,0 +1,157 @@
+[
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Heaters shall be designed for uniform heat distribution.",
+    "output": "1. Item: heaters\n2. Property: design\n3. Value: designed for uniform heat distribution"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Multi-pass heaters shall be designed for hydraulic symmetry of all passes.",
+    "output": "1. Item: multi-pass heaters\n2. Property: design\n3. Value: designed for hydraulic symmetry of all passes"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The number of passes for vaporizing fluids shall be minimized.",
+    "output": "1. Item: passes for vaporizing fluids\n2. Property: number\n3. Value: minimized"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Each pass shall be a single circuit from inlet to outlet.",
+    "output": "1. Item: Each pass\n2. Property: circuit\n3. Value: single circuit from inlet to outlet"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Average heat flux density in the radiant section is normally based on a single row of tubes spaced at 2 nominal tube diameter spacing.",
+    "output": "1. Item: radiant section\n2. Property: average heat flux density\n3. Value: normally based on a single row of tubes spaced at 2 nominal tube diameter spacing"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The first row of shield section tubes shall be considered as radiant service in determining the average heat flux density when these tubes are exposed to direct flame radiation.",
+    "output": "1. Item: shield section tubes\n2. Property: first row\n3. Value: considered as radiant service in determining the average heat flux density when these tubes are exposed to direct flame radiation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The maximum allowable inside film temperature for any process service shall not be exceeded in the radiant, shield or convection sections anywhere in the specified coil.",
+    "output": "1. Item: any process service\n2. Property: maximum allowable inside film temperature\n3. Value: not be exceeded in the radiant, shield or convection sections anywhere in the specified coil"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Calculated and actual efficiencies shall be based on the lower heating value of the input fuel and shall include a minimum radiation loss of 1.5 percent of the calculated normal heat release.",
+    "output": "1. Item: (heater)\n2. Property: Calculated and actual efficiencies\n3. Value: based on the lower heating value of the input fuel and shall include a minimum radiation loss of 1.5 percent of the calculated normal heat release"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Heaters employing flue gas air preheat systems shall include a minimum radiation loss of 2.5 percent of the total fuel heat input based upon the lower heating value.",
+    "output": "1. Item: heaters employing flue gas air preheat systems\n2. Property: efficiency\n3. Value: include a minimum radiation loss of 2.5 percent of the total fuel heat input based upon the lower heating value"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Unless otherwise specified by the purchaser, calculated efficiencies during operation shall be based upon 20 percent excess air when the fuel gas is the primary fuel, and 25 percent excess air when oil is the primary fuel.",
+    "output": "1. Item: calculated efficiencies during operation\n2. Property: excess air\n3. Value: based upon 20 percent excess air when the fuel gas is the primary fuel, and 25 percent excess air when oil is the primary fuel"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "In the case of forced draft operation, calculated efficiencies shall be based on 15 percent excess air for fuel gas and 20 percent excess air for fuel oil.",
+    "output": "1. Item: calculated efficiencies for forced draft operation\n2. Property: excess air\n3. Value: based on 15 percent excess air for fuel gas and 20 percent excess air for fuel oil"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The heater efficiency shall be calculated using the specified fouling resistances.",
+    "output": "1. Item: heater\n2. Property: efficiency\n3. Value: calculated using the specified fouling resistances"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Volumetric heat release shall not exceed 125 kW/m3 (12,000 BTU/h/ft3) for oil-fired heaters and 165 kW/m3 (16,000 BTU/h/ft3) for gas-fired heaters based upon the design heat absorption.",
+    "output": "1. Item: volumetric heat release\n2. Property: exceedance\n3. Value: not exceed 125 kW/m3 (12,000 BTU/h/ft3) for oil-fired heaters and 165 kW/m3 (16,000 BTU/h/ft3) for gas-fired heaters based upon the design heat absorption"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The flue gas system shall be designed so that the negative pressure of at least 25 pascals (0.10 inches of water column) is maintained in the radiant and convection sections at maximum ambient temperature and 120% of normal heat release with design excess air and design stack temperature.",
+    "output": "1. Item: flue gas system\n2. Property: design\n3. Value: designed so that the negative pressure of at least 25 pascals (0.10 inches of water column) is maintained in the radiant and convection sections at maximum ambient temperature and 120% of normal heat release with design excess air and design stack temperature"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Provisions for thermal expansion shall take into consideration all specified operating conditions, including short-term conditions such as steam-air decoking.",
+    "output": "1. Item: (heater)\n2. Property: provisions for thermal expansion\n3. Value: take into consideration all specified operating conditions, including short-term conditions such as steam-air decoking"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The convection section tube layout shall include space for future installation of sootblowers, water washing or steam lancing doors.",
+    "output": "1. Item: convection section\n2. Property: tube layout\n3. Value: include space for future installation of sootblowers, water washing or steam lancing doors"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "When the heater is designed for heavy fuel-oil firing, sootblowers shall be provided for convection cleaning.",
+    "output": "1. Item: heater\n2. Property: sootblowers\n3. Value: provided for convection cleaning when the heater is designed for heavy fuel-oil firing"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "When light fuel oils, such as naphtha are fired, the purchaser shall specify if sootblowers are to be supplied.",
+    "output": "1. Item: purchaser\n2. Property: specification\n3. Value: if sootblowers are to be supplied when light fuel oils, such as naphtha are fired"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The convection section design shall incorporate space for the future addition of two rows of tubes, including the end and intermediate tubesheets.",
+    "output": "1. Item: convection section design\n2. Property: space\n3. Value: incorporate space for the future addition of two rows of tubes, including the end and intermediate tubesheets"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Placement of sootblowers and cleaning lanes shall be based upon the addition of the future tubes.",
+    "output": "1. Item: sootblowers and cleaning lanes\n2. Property: Placement\n3. Value: based upon the addition of the future tubes"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Holes in end tube sheets shall be plugged off to prevent flue gas leakage.",
+    "output": "1. Item: end tube sheets\n2. Property: holes\n3. Value: plugged off to prevent flue gas leakage"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Vertical cylindrical and vertical tube box heaters shall be designed with a maximum height-to-width ratio of 2.75, where the height is the radiant section height (inside refractory face) and the width is the distance between tube centerlines.",
+    "output": "1. Item: Vertical cylindrical and vertical tube box heaters\n2. Property: design\n3. Value: designed with a maximum height-to-width ratio of 2.75, where the height is the radiant section height (inside refractory face) and the width is the distance between tube centerlines"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Horizontal tube floor fired heaters shall have a maximum height to width ratio of 2.75, where the height is the dimension from the floor to the arch refractory or tubes on the centerline of the chamber, and the width is the distance between refractory walls.",
+    "output": "1. Item: horizontal tube floor fired heaters\n2. Property: height-to-width ratio\n3. Value: have a maximum height to width ratio of 2.75, where the height is the dimension from the floor to the arch refractory or tubes on the centerline of the chamber, and the width is the distance between refractory walls"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Except for the first shield row, convection sections shall be designed with corbels to minimize flue gas bypassing the heating surface.",
+    "output": "1. Item: convection sections\n2. Property: design\n3. Value: designed with corbels to minimize flue gas bypassing the heating surface except for the first shield row"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The minimum clearance from grade to burner plenum or register shall be 2 meters (6.5 feet) for floor fired heaters.",
+    "output": "1. Item: floor fired heaters\n2. Property: minimum clearance from grade to burner plenum or register\n3. Value: 2 meters (6.5 feet)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For vertical cylindrical heaters, the maximum straight tube length shall be 18.3 meters (60 feet).",
+    "output": "1. Item: vertical cylindrical heaters\n2. Property: maximum straight tube length\n3. Value: 18.3 meters (60 feet)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For horizontal heaters fired from both ends, the maximum radiant straight tube length shall be 12.2 meters (40 feet).",
+    "output": "1. Item: horizontal heaters fired from both ends\n2. Property: maximum radiant straight tube length\n3. Value: 12.2 meters (40 feet)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Radiant tubes shall be installed with minimum spacing from refractory or insulation to tube centerline of 1.5 nominal tube diameters, with a clearance of not less than 100 millimeters (4 inches) from the refractory or insulation.",
+    "output": "1. Item: radiant tubes\n2. Property: installment\n3. Value: installed with minimum spacing from refractory or insulation to tube centerline of 1.5 nominal tube diameters, with a clearance of not less than 100 millimeters (4 inches) from the refractory or insulation"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For horizontal radiant tubes, the minimum clearance from floor refractory to tube outside diameter shall be not less than 300 millimeters (12 inches).",
+    "output": "1. Item: horizontal radiant tubes\n2. Property: minimum clearance from floor refractory to tube outside diameter\n3. Value: not less than 300 millimeters (12 inches)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The heater arrangement shall allow for replacement of individual tubes or hairpins without disturbing adjacent tubes.",
+    "output": "1. Item: heater\n2. Property: arrangement\n3. Value: allow for replacement of individual tubes or hairpins without disturbing adjacent tubes"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Convection sections with an effective tube length over 12.2 meters (40 feet) shall have more than one flue gas off take to the stack(s).",
+    "output": "1. Item: convection sections\n2. Property: effective tube length\n3. Value: over 12.2 meters (40 feet) shall have more than one flue gas off take to the stack(s)"
+  }
+]
