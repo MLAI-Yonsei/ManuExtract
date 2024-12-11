@@ -1,0 +1,107 @@
+[
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The Centrifugal Pumps shall be designed for a minimum service life of 25 years.",
+    "output": "1. Item: Centrifugal Pumps\n2. Property: design\n3. Value: designed for a minimum service life of 25 years"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "VENDOR'S pump selections shall ensure there is a NPSH margin of at least 1 metre or 15% of NPSHA whichever is the greater.",
+    "output": "1. Item: VENDOR'S pump selections\n2. Property: NPSH margin\n3. Value: ensure there is a NPSH margin of at least 1 metre or 15% of NPSHA whichever is the greater"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The offered pump shall be sized such that a minimum of 5% increase in head is possible by installing a larger diameter impeller.",
+    "output": "1. Item: offered pump\n2. Property: size\n3. Value: sized such that a minimum of 5% increase in head is possible by installing a larger diameter impeller"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The suction specific speed shall not exceed 200 (SI units) as defined in Annexure A of API 610 at the Best Efficiency Point (BEP).",
+    "output": "1. Item: (Pump)\n2. Property: suction specific speed\n3. Value: not exceed 200 (SI units) as defined in Annexure A of API 610 at the Best Efficiency Point (BEP)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The head rise to shut-off shall preferably be 115 - 120% of the head required at the rated flow.",
+    "output": "1. Item: (Pump)\n2. Property: head rise to shut-off\n3. Value: preferably be 115 - 120% of the head required at the rated flow."
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The rated duty point should be preferably in the range of 70 to 110% of BEP for rated impeller.",
+    "output": "1. Item: (Pump)\n2. Property: rated duty point\n3. Value: preferably in the range of 70 to 110% of BEP for rated impeller"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Impeller shall have minimum three (3) numbers of vanes.",
+    "output": "1. Item: Impeller\n2. Property: number of vanes\n3. Value: minimum 3"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The maximum impeller size for a single stage overhung pump design, operating at 2950 rpm and above, shall be limited to 380 mm.",
+    "output": "1. Item: impeller for a single stage overhung pump design, operating at 2950 rpm and above\n2. Property: maximum size\n3. Value: limited to 380 mm"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The hardness of casing and impeller wear rings materials shall differ by minimum 50 Brinell.",
+    "output": "1. Item: casing and impeller wear rings materials\n2. Property: hardness\n3. Value: differ by minimum 50 Brinell"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Shaft run-out shall be limited at the face of the stuffing box to 0.05 mm TIR or less.",
+    "output": "1. Item: Shaft\n2. Property: run-out\n3. Value: limited at the face of the stuffing box to 0.05 mm TIR or less"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Dynamic shaft deflection under the maximum load shall be 0.05 mm maximum at the face of stuffing box.",
+    "output": "1. Item: Dynamic shaft under the maximum load\n2. Property: deflection\n3. Value: 0.05 mm maximum at the face of stuffing box"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Axial movement of shaft shall not exceed 0.075 mm when mechanical seals are installed.",
+    "output": "1. Item: Shaft\n2. Property: axial movement\n3. Value: not exceed 0.075 mm when mechanical seals are installed"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pumps supplied with shaft sleeves shall have shaft stiffness such that the deflection at the impeller centreline is less than 0.13mm from minimum flow to end of curve.",
+    "output": "1. Item: Pumps supplied with shaft sleeves\n2. Property: shaft stiffness\n3. Value: have shaft stiffness such that the deflection at the impeller centreline is less than 0.13mm from minimum flow to end of curve"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Unless specified otherwise, the L10 life for the bearings shall be minimum 25,000 hours in the specified service with continuous operation at maximum radial and axial loads and rated speed (maximum impeller diameter at shut-off).",
+    "output": "1. Item: Bearings\n2. Property: L11 life\n3. Value: minimum 25,000 hours in the specified service with continuous operation at maximum radial and axial loads and rated speed (maximum impeller diameter at shut-off)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pumps with non-pressurised bearing lubrication, the bearing metal temperature shall be restricted to maximum 75° C, based on service condition and maximum ambient temperature.",
+    "output": "1. Item: Pumps with non-pressurised bearing lubrication\n2. Property: bearing metal temperature\n3. Value: restricted to maximum 75° C, based on service condition and maximum ambient temperature"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Couplings shall be designed considering minimum service factor as 1.5 on motor kW rating.",
+    "output": "1. Item: Couplings\n2. Property: design\n3. Value: designed considering minimum service factor as 1.5 on motor kW rating"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Corresponding mounting pads surfaces shall be in the same plane within 0.15mm per meter.",
+    "output": "1. Item: Mounting pads surfaces\n2. Property: plane \n3. Value: in the same plane within 0.15mm per meter"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Driver pads height shall allow the installation of minimum 3mm thick stainless steel shims for alignment purpose.",
+    "output": "1. Item: Driver pads height\n2. Property: shim thickness\n3. Value: allow the installation of minimum 3mm thick stainless steel shims for alignment purpose"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Stainless steel shims shall be used for motors and thickness of the shims shall be 3 mm minimum.",
+    "output": "1. Item: Stainless steel shims\n2. Property: usage and thickness\n3. Value: used for motors and thickness of the shims shall be 3 mm minimum"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Minimum piping connection size shall be 20 mm (3/4in).",
+    "output": "1. Item: Piping connection\n2. Property: size\n3. Value: Minimum 20 mm (3/4in)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Seal flush lines shall be made of seamless tubing with a minimum outside diameter of 3/8\" and a maximum of 1/2\" with a 0.035” wall thickness. ",
+    "output": "1. Item: Seal flush lines\n2. Property: seamless tubing\n3. Value: made of seamless tubing with a minimum outside diameter of 3/8\" and a maximum of 1/2\" with a 0.035” wall thickness"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pump with constant speed driver shall be capable of at least a 5% head increase at rated conditions and pump speed specified on the performance curve by installing new impeller.",
+    "output": "1. Item: Pump with constant speed driver\n2. Property: Head increase\n3. Value: capable of at least a 5% head increase at rated conditions and pump speed specified on the performance curve by installing new impeller"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The capacity head curve for the pump shall be continuously rising type up to shut-off with a minimum shut-off head of 110% but not exceeding 120% of the head at the rated capacity.",
+    "output": "1. Item: Pump\n2. Property: capacity head curve\n3. Value: continuously rising type up to shut-off with a minimum shut-off head of 110% but not exceeding 120% of the head at the rated capacity"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The pressure casing shall be designed to 600 PSIG (42.2 Kg/cm² G) & have a corrosion allowance of 3 mm.",
+    "output": "1. Item: Pressure casing\n2. Property: design\n3. Value: designed to 600 PSIG (42.2 Kg/cm² G) & have a corrosion allowance of 3 mm"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "All cooling water piping header size for hot water pumps shall be 25 mm NB (min).",
+    "output": "1. Item: All cooling water piping for hot water pumps\n2. Property: Header size\n3. Value: 25 mm NB (min)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The pump RPM should be 3000 RPM unless specified otherwise.",
+    "output": "1. Item: Pump\n2. Property: RPM\n3. Value: 3000 RPM unless specified otherwise"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Best efficiency point of any offered pump should preferably lie between the rated point and the normal point.",
+    "output": "1. Item: any offered pump\n2. Property: Best efficiency point\n3. Value: preferably lie between the rated point and the normal point"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "However, in no case the rated point shall be beyond 110% of the BEP of the rated impeller.",
+    "output": "1. Item: (Pump)\n2. Property: rated point\n3. Value: not beyond 110% of the BEP of the rated impeller"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "And, in no case shall the normal operating flow be less than 70% of BEP of the rated impeller, unless otherwise mentioned specifically in the pump data sheet.",
+    "output": "1. Item: (Pump)\n2. Property: normal operating flow\n3. Value: not less than 70% of BEP of the rated impeller, unless otherwise mentioned specifically in the pump data sheet"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "And hydrostatic pressure has to be 1.5 times the maximum allowable working pressure at pumping temperature.",
+    "output": "1. Item: (Pump)\n2. Property: Hydrostatic pressure\n3. Value: 1.5 times the maximum allowable working pressure at pumping temperature"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Offered model where difference between NPSHA and NPSHR, from quoted minimum flow to rated flow, is less than 0.6 meter will not be acceptable.",
+    "output": "1. Item: Offered model\n2. Property: difference between NPSHA and NPSHR, from quoted minimum flow to rated flow\n3. Value: less than 0.6 meter will not be acceptable"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "NPSH test shall be performed if NPSH margin(water) is less than 1.0 M.",
+    "output": "1. Item: NPSH test\n2. Property: NPSH margin (water)\n3. Value: performed if NPSH margin(water) is less than 1.0 M"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Maximum impeller diameter for single stage overhung design pump, operating at 2800 rpm and higher, shall be limited to 380 mm.",
+    "output": "1. Item: single stage overhung design pump, operating at 2800 rpm and higher\n2. Property: Maximum impeller diameter\n3. Value: limited to 380 mm"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Free flow area of the strainer shall be minimum 2.5 times the area of equivalent suction nozzle area.",
+    "output": "1. Item: Strainer\n2. Property: Free flow area\n3. Value: minimum 2.5 times the area of equivalent suction nozzle area"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Coupling Guard shall be non-sparking type fabricated from 18 SWG (MIN), Aluminum sheet",
+    "output": "1. Item: Coupling Guard\n2. Property: Material\n3. Value: non-sparking type fabricated from 18 SWG (MIN), Aluminum sheet"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The casing wear ring should be harder by minimum difference of 50 BHN.",
+    "output": "1. Item: casing wear ring\n2. Property: Hardness \n3. Value: harder by minimum difference of 50 BHN"
+  }
+]

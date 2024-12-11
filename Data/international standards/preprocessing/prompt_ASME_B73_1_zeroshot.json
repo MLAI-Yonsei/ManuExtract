@@ -1,0 +1,102 @@
+[
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Jackets for heating or cooling the casing, stuffing box, and/or seal chamber arc optional. Jackets shall be designed for a minunuai perating pressure of 690 kPa gage (100 psig) at 170°C (340°F).",
+    "output": "1. Item: jackets for heating or cooling the casing, stuffing box, and/or seal chamber\n2. Property: operating pressure\n3. Value: min. 690kPa (100psig) at 170ºC (340ºF)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Heating jackets may be required for jacket temperatures to 260°C (500°F) with a corresponding reduction in pressure.",
+    "output": "1. Item: heating jackets\n2. Property: Temperature\n3. Value: 260ºC (500ºF) with reduced pressure"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The diameter of the shaft or shaft sleeve through the stuffing box or seal chamber shall be sized in increments of 3.18 mm (、in.).",
+    "output": "1. Item: shaft or shaft sleeve\n2. Property: diameter increment \n3. Value: 3.18mm (1/8 in.)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "To provide fnr the use of mechanical seals, the tolerance on that diameter shall not exceed nominal to minus 0.05 mm (0.002 in.).",
+    "output": "1. Item: Mechanical seals\n2. Property: tolerance in diameter\n3. Value: not exceed nominal to  minus 0.05mm (0.002 in.)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Surface finish of the shaft or sleeve through the stuffing box and at rubbing contact bearing housing seals shall not exceed a roughness of 0.8 μm (32 μin.)",
+    "output": "1. Item:  shaft or sleeve\n2. Property: surface finish\n3. Value: Not exceed a roughness of 0.8μm (32 μin.)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Shaft runout at the face of the stuffing box and at the impeller shall not exceed 0.05 mm (0.002 in.) FIM (full indicator movement).",
+    "output": "1. Item: Shaft\n2. Property: runout\n3. Value: 0.05mm (0.002 in.) FIM(full indicator movement)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Dynamic shaft deflection at the impeller centerline shall not exceed 0,13 tnm (0.005 in.)",
+    "output": "1. Item: shaft \n2. Property: deflection at the impeller centerline\n3. Value: max. 0.13mm (0.005 in.)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The first lateral critical speed of the rotating assembly shall be at least 120% of the maximum operating speed.",
+    "output": "1. Item: Rotating assembly\n2. Property: first lateral critical speed\n3. Value: at least 120% of the max operting speed"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The seal chamber can be a cylindrical or a tapered design. The tiered bore seal chamber shall have a minimum of a 4 deg. taper open toward the pump impeller.",
+    "output": "1. Item: seal chamber\n2. Property: Type and feature\n3. Value: Cylindrical or tapered with min. 4 deg. Taper open toward the pump impeller"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The secondary seal contact surface(s) shall not exceed a roughness of 1.6 μm (63 μin.)",
+    "output": "1. Item: secondary seal\n2. Property: contact surface(s) roughness\n3. Value: not exceed 1.6 μm (63 μin.)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The stuffing box packing bore surface shall not exceed a roughness of 1.6 μm (63 μin.).",
+    "output": "1. Item: stuffing box\n2. Property: packing bore surface roughness\n3. Value: Not exceed 1.6 μm (63 μin.)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Registers shall maintain the stuffing box bore concentric with the axis of the pump shaft within 0.13 mm (0.005 in.) FIM and the stuffing box face perpendicular to the axis of the assembled pump shaft within 0.08 mm (0.003 in ) FIM.",
+    "output": "1. Item: Registers in the stuffing box\n2. Property:  bore concentricity\n3. Value: within 0.13 mm (0.005 in.) FIM with the axis of the pump shaft"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The maximtim allowable runout of seal chamber is 0.08 mm (0.003 in.) FIM (see Fig. 4).",
+    "output": "1. Item: seal chamber\n2. Property: runout\n3. Value: maximtim 0.08 mm (0.003 in.) FIM"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "This register shall be concentric with the shaft or sleeve and shall hatve a total indicator runout reading no greater than 0.13 mm (0.005 in.) FIM (see Fig. 5).",
+    "output": "1. Item: register\n2. Property: total indicator runout\n3. Value: no greater than 0.13 mm (0.005 in.) FIM with the shaft or sleeve"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The maxhmim allowable shaft sleeve runout is 0.05 mm (0.002 in.) (see Fig. 6).",
+    "output": "1. Item: shaft sleeve\n2. Property: runout\n3. Value: maximum 0.05 mm (0.002 in.)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pump sizes AA through A70 shall have a minimum L'10 bearing life of 17,500 hr at maximum load.",
+    "output": "1. Item: Pump sizes AA through A70\n2. Property: L'10 bearing life\n3. Value: minimum 17,500 hr  at maximum load"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Pump sizes A80 and larger shall have a minimum L'10 bearing life of 17,500 hr at design load (refer to para.4.5.4).",
+    "output": "1. Item: Pump sizes A80 and larger\n2. Property: L'10 bearing life\n3. Value: minimum 17,500 hr  at design load"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The casing, cover, and gland shall have a corrosion allowance of at least 3,2 mm (1/8 in.).",
+    "output": "1. Item: casing, cover, and gland\n2. Property: corrosion allowance\n3. Value: at least 3,2 mm (1/8 in.)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Baseplates which are to be freestanding (foot or spring supported rather than held by anchor bolts and grouted) shall be so structurally rigid as to limit the movement of the driver shaft relative to the pump shaft to 0.05 mm (0.002 in.) parallel offset when the driver torque of nameplate horsepower is applied.",
+    "output": "1. Item: Baseplates\n2. Property: parallel offset of the driver shaft relative to the pump shaft\n3. Value: Limit movement to 0.05 mm (0.002 in.)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The unfiltered vibration level measured on the pump bearing housing at the manufacturers test facility at rated speed ±5% and rated flow ± 5% shall not exceed 6.35 mm/sec (0.25 in./scc) peak velocity or 0.064 mm (2.5 mils) peak.to-peak displacement.",
+    "output": "1. Item: pump bearing housing at the manufacturers test facility at rated speed ±5% and rated flow ± 5%\n2. Property: unfiltered vibration level\n3. Value: not exceed 6.35 mm/sec (0.25 in./scc) peak velocity or 0.064 mm (2.5 mils) peak.to-peak displacement"
+  }
+]

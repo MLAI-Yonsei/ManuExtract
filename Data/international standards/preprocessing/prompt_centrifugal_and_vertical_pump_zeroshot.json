@@ -1,0 +1,12 @@
+[
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "While the predicted bearing life will vary significantly over the AOR, it is recommended that the calculated bearing life be a minimum of two years of operation in this range (basic rating life L10 equal to or greater than 17,500 hours).",
+    "output": "1. Item: Bearing\n2. Property: calculated bearing life\n3. Value: recommended minimum of two years of operation in this range (basic rating life L10 equal to or greater than 17,500 hours)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Most process pump manufacturers limit the AOR to operating conditions where the shaft deflection by design at the seal faces is 0.05 mm (0.002 in) or less.",
+    "output": "1. Item: Most process pump manufacturers\n2. Property: limit\n3. Value: limit the AOR to operating conditions where the shaft deflection by design at the seal faces is 0.05 mm (0.002 in) or less"
+  }
+]

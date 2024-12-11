@@ -1,0 +1,77 @@
+[
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For operation within the allowable operating region (AOR) (refer to ANSI/HI 9.6.3), a minimum margin ratio of 1.1 or a margin of 1.0 m (3.3 ft), whichever is greater, is recommended at each particular rate of flow.",
+    "output": "1. Item: operation within the allowable operating region (AOR) (refer to ANSI/HI 9.6.3)\n2. Property: minimum margin ratio\n3. Value: 1.1 or a margin of 1.0 m (3.3 ft), whichever is greater, is recommended at each particular rate of flow"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For pumps with suction specific speeds below 210 metric (11,000 US units), the minimum NPSH margin ratio, at each particular rate of flow, should be 1.1, or 0.6 m (2.0 ft) the margin, whichever is greater, for operation within AOR",
+    "output": "1. Item: pumps with suction specific speeds below 210 metric (11,000 US units)\n2. Property: minimum NPSH margin ratio\n3. Value: 1.1, or 0.6 m (2.0 ft) the margin, whichever is greater"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "1) For operation within the preferred operating region (POR) (see ANSI/HI 9.6.3), the minimum NPSH margin ratio at each particular rate of flow should be 1.1, or 0.6 m (2.0 ft) margin, whichever is greater.",
+    "output": "1. Item: operation within the preferred operating region (POR) (see ANSI/HI 9.6.3)\n2. Property: minimum NPSH margin ratio at each particular rate of flow\n3. Value: 1.1, or 0.6 m (2.0 ft) margin, whichever is greater"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "2) The NPSH margin ratio at each particular rate of flow should be 1.2, or 1.0 m (3.3 ft) margin, whichever is greater, for pumps frequently operating outside of the POR (within the AOR).",
+    "output": "1. Item: pumps frequently operating outside of the POR (within the AOR)\n2. Property: NPSH margin ratio at each particular rate of flow\n3. Value: 1.2, or 1.0 m (3.3 ft) margin, whichever is greater"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Impeller inlet peripheral velocity for condensate pumps should be below 21.3 m/s (70 ft/s).",
+    "output": "1. Item: Condensate pumps\n2. Property: impeller inlet peripheral velocity\n3. Value: below 21.3 m/s (70 ft/s)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Circulating/cooling water pumps typically have an impeller inlet peripheral velocity below 26 m/s (85 ft/s).",
+    "output": "1. Item: Circulating/cooling water pumps\n2. Property: impeller inlet peripheral velocity\n3. Value: below 26 m/s (85 ft/s)"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Experience indicates that an NPSH margin of 1.0 m (3.3 ft) is adequate to resist cavitation damage for most municipal-type water and wastewater pumping applications when operating within the POR.",
+    "output": "1. Item: most municipal-type water and wastewater pumping applications when operating within the POR\n2. Property: NPSH margin\n3. Value: 1.0 m (3.3 ft) is adequate to resist cavitation damage"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For pumps with suction specific speed values below 145 metric (7500 US units), the NPSH margin ratio should be 1.1, or an NPSH margin of 0.6 m (2 ft), whichever is greater",
+    "output": "1. Item: Pumps with suction specific speed values below 145 metric (7500 US units)\n2. Property: NPSH margin ratio\n3. Value: 1.1, or an NPSH margin of 0.6 m (2 ft), whichever is greater"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For pumps with suction specific speed values 145 metric (7500 US units) and above, the NPSH margin ratio should be 1.2, or an NPSH margin of 1.0 m (3.3 ft), whichever is greater",
+    "output": "1. Item: Pumps with suction specific speed values 145 metric (7500 US units) and above\n2. Property: NPSH margin ratio\n3. Value: 1.2, or an NPSH margin of 1.0 m (3.3 ft), whichever is greater"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For low suction specific speed pumps, values below 145 metric (7500 US units), the NPSH margin ratio should be greater than 1.0 throughout the AOR",
+    "output": "1. Item: Low suction specific speed pumps (values below 145 metric / 7500 US units)\n2. Property: NPSH margin ratio\n3. Value: greater than 1.0 throughout the AOR"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For pumps with suction specific speed values above 145 metric (7500 US units), the NPSH margin ratio should be 1.1, or an NPSH margin of 0.6 m (2 ft), whichever is greater",
+    "output": "1. Item: pumps with suction specific speed values above 145 metric (7500 US units)\n2. Property: NPSH margin ratio\n3. Value: 1.1, or an NPSH margin of 0.6 m (2 ft), whichever is greater"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "they normally fall into the medium or low suction specific speed category, and have NPSH3 values below 6 m (20 ft) before calculating the NPSH ratio or margin.",
+    "output": "1. Item: Medium or low suction specific speed category pumps\n2. Property: NPSH3 values\n3. Value: normally fall into the medium or low suction specific speed category, and have NPSH3 values below 6 m (20 ft) before calculating the NPSH ratio or margin."
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "Consequently the NPSHA is normally in excess of 9 m (30 ft), resulting in NPSHA/NPSH3 margin ratios in excess of 1.5.",
+    "output": "1. Item: NPSHA\n2. Property: margin ratio\n3. Value: normally in excess of 9 m (30 ft), resulting in NPSHA/NPSH3 margin ratios in excess of 1.5"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "The recommended NPSH margin ratio for slurry pumps operating within the AOR is 1.1, or a margin of 0.6 m (2.0 ft), whichever is greater.",
+    "output": "1. Item: slurry pumps operating within the AOR\n2. Property: recommended NPSH margin ratio\n3. Value: 1.1, or a margin of 0.6 m (2.0 ft), whichever is greater"
+  },
+  {
+    "instruction": "Given a sentence, extract the 'Item', 'Property', and 'Value'. The 'Item' is the main subject or entity, the 'Property' is a characteristic or attribute of the item, and the 'Value' is the specific detail or measurement related to the property. Provide the answer in the following format:\n\n1. Item: [Extracted Item]\n2. Property: [Extracted Property]\n3. Value: [Extracted Value]\n Only answer the last sentence in the passage and follow the correct format. Do not add anything else",
+    "input": "For operation within the broader AOR, the larger of a minimum margin ratio of 1.1 or an NPSH margin of 1.0 m (3.3 ft) is recommended.",
+    "output": "1. Item: operation within the broader AOR\n2. Property: minimum margin ratio\n3. Value: 1.1 or an NPSH margin of 1.0 m (3.3 ft) is recommended"
+  }
+]
