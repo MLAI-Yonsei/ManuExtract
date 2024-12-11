@@ -104,7 +104,7 @@ These resources can be utilized for further fine-tuning or inference tasks.
 
 ---
 
-### **Evaluate the Dataset with FT model (ManuExtract)**
+### Evaluate the Dataset with FT model (ManuExtract)
 Run the evaluation with the following command:
    ```bash
    NCCL_P2P_DISABLE="1" NCCL_IB_DISABLE="1" CUDA_VISIBLE_DEVICES=7 python /LLaMA-Factory/src/train.py --stage sft --model_name_or_path meta-llama/Meta-Llama-3.1-8B-Instruct --preprocessing_num_workers 16 --finetuning_type lora --template llama3 --dataset_dir ./LLaMA-Factory/data --eval_dataset "Data name" --adapter_name_or_path "Your Checkpoint" --output_dir "Output path" --do_predict True
